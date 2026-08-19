@@ -1,0 +1,30 @@
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 80px 8%;
+}
+
+.hero-content {
+    max-width: 620px;
+}
+
+.hero-content span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 520px;
+}
