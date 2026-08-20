@@ -1,11 +1,12 @@
 import { useState } from "react";
+import "./FeatureCard.css";
 
 function FeatureCard(props) {
     const [mostrar, setMostrar] = useState(false);
 
     return (
-        <article>
-            <img src={props.image} alt={props.title} />
+        <article className="feature-card">
+            <span>{props.icon}</span>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
             <button onClick={() => setMostrar(!mostrar)}>
@@ -13,7 +14,7 @@ function FeatureCard(props) {
             </button>
 
             {mostrar && (
-                <p>Colocar uma explicação maior.</p>
+                <p>{props.details}</p>
             )}
         </article>
     );

@@ -1,0 +1,30 @@
+.feature-card {
+    padding: 32px;
+    border: 1px solid var(--cor-preto);
+    border-radius: 24px;
+    background: var(--cor-branco);
+}
+
+.feature-card span {
+    font-size: 32px;
+}
+
+.feature-card h3 {
+    margin: 20px 0 12px;
+    font-size: 28px;
+}
+
+.feature-card p {
+    line-height: 1.5;
+    color: var(--cor-texto-secundario);
+}
+
+.feature-card button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 999px;
+    background: var(--cor-preto);
+    color: var(--cor-branco);
+    cursor: pointer;
+}

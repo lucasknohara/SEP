@@ -1,3 +1,4 @@
+import modoEstudante from "../../assets/ModoEstudante.png";
 import "./Hero.css";
 
 function Hero(props) {
@@ -11,7 +12,7 @@ function Hero(props) {
             </div>
 
             <div className="hero-visual">
-                {/* colocar imagem aqui */}
+                <img src={modoEstudante} alt="Tela do Modo Estudante" />
             </div>
         </section>
     );

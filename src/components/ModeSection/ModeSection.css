@@ -1,0 +1,14 @@
+.mode-section {
+    padding: 100px 8%;
+}
+
+.mode-section h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.mode-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}

@@ -1,0 +1,23 @@
+.step-card {
+    padding: 32px;
+    border: 1px solid var(--cor-preto);
+    border-radius: 24px;
+    background: var(--cor-branco);
+}
+
+.step-card span {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--cor-texto-secundario);
+}
+
+.step-card h3 {
+    margin: 24px 0 12px;
+    font-size: 28px;
+}
+
+.step-card p {
+    margin: 0;
+    color: var(--cor-texto-secundario);
+    line-height: 1.5;
+}
