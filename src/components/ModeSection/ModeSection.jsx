@@ -8,7 +8,7 @@ function ModeSection() {
 
             <div className="mode-cards">
                 <ModeCard variant="studylens" title="StudyLens" description="Transforme suas capturas em conhecimento organizado." buttonText="Conhecer StudyLens" />
-                <ModeCard variant="custom" title="Modo Customizável" description="Crie uma experiência de câmera do seu jeito." buttonText="Personalizar" />
+                <ModeCard variant="custom" title="Modo Customizável" description="Crie uma experiência de câmera do seu jeito." buttonText="Conhecer Modo Customizável" />
             </div>
         </section>
     );

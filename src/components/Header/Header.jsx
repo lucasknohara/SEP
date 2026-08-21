@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <h1>StudyLens</h1>
+            <h1>SEP</h1>
         </header>
     );
 }
