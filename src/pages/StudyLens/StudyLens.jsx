@@ -1,5 +1,6 @@
 import StudyLensImg from "../../assets/ModoEstudante.png";
-import HowStudyLensWorks from "../../components/HowStudyLensWorks/HowStudyLensWorks.jsx";   
+import HowStudyLensWorks from "../../components/HowStudyLensWorks/HowStudyLensWorks.jsx";
+import IAActions from "../../components/IAActions/IAActions.jsx";
 import "./StudyLens.css";
 
 function StudyLens() {
@@ -18,6 +19,8 @@ function StudyLens() {
             </section>
 
             <HowStudyLensWorks />
+
+            <IAActions />
         </main>
     );
 }

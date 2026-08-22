@@ -1,0 +1,28 @@
+.ia-action-card {
+    padding: 32px;
+    min-height: 220px;
+    border-radius: 24px;
+    background: #1c1c1c;
+    border: 1px solid #333333;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.ia-action-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--cor-amarelo);
+}
+
+.ia-action-card span {
+    font-size: 32px;
+}
+
+.ia-action-card h3 {
+    margin: 24px 0 12px;
+    font-size: 26px;
+}
+
+.ia-action-card p {
+    margin: 0;
+    color: #bdbdbd;
+    line-height: 1.5;
+}

@@ -1,0 +1,17 @@
+.ia-actions {
+    padding: 100px 8%;
+    background: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.ia-actions h2 {
+    max-width: 700px;
+    margin: 0 0 50px;
+    font-size: 48px;
+}
+
+.ia-actions-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
