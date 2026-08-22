@@ -1,0 +1,21 @@
+.process-step {
+    padding: 30px;
+    border: 1px solid var(--cor-preto);
+    border-radius: 24px;
+}
+
+.process-step span {
+    font-size: 14px;
+    color: var(--cor-texto-secundario);
+}
+
+.process-step h3 {
+    margin: 24px 0 12px;
+    font-size: 28px;
+}
+
+.process-step p {
+    margin: 0;
+    color: var(--cor-texto-secundario);
+    line-height: 1.5;
+}
