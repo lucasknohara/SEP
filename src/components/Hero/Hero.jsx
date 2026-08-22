@@ -8,7 +8,6 @@ function Hero(props) {
                 <span>SEP · STUDYLENS · MODO CUSTOMIZÁVEL</span>
                 <h1>{props.title}</h1>
                 <p>{props.subtitle}</p>
-                <button>Conheça a SEP</button>
             </div>
 
             <div className="hero-visual">

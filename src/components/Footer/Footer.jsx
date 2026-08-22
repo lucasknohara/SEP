@@ -1,7 +1,10 @@
+import "./Footer.css";
+
 function Footer() {
     return (
         <footer>
-            <p>SEP © 2026</p>
+            <hr/>
+            <p className="copyright"> Copyright © 2026 SEP. Todos os direitos reservados.</p>
         </footer>
     );
 }
