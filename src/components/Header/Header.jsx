@@ -7,6 +7,7 @@ function Header() {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/studylens">StudyLens</Link>
+                <Link to="/modocustomizavel">Modo Customizável</Link>
             </nav>
         </header>
     );

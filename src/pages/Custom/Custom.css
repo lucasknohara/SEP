@@ -1,0 +1,40 @@
+.custom-page {
+    background: var(--cor-branco);
+    color: var(--cor-preto);
+}
+
+.custom-hero {
+    min-height: 85vh;
+    padding: 100px 8%;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    align-items: center;
+    gap: 80px;
+}
+
+.custom-hero span {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: var(--cor-texto-secundario);
+}
+
+.custom-hero h1 {
+    max-width: 700px;
+    margin: 20px 0;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.custom-hero p {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--cor-texto-secundario);
+}
+
+.custom-hero img {
+    width: 100%;
+    display: block;
+    border-radius: 36px;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.18);
+}
