@@ -40,28 +40,44 @@ function CustomModeForm() {
         <section className="custom-mode-form">
             <h2>Crie seu próprio modo.</h2>
 
-            <div className="custom-mode-form-div">    
-                <h3>Nome do modo</h3>
-                <input type="text" placeholder="Nome do Modo" value={nome} onChange={(e) => setNome(e.target.value)} />
+            <div className="custom-mode-content">
+                <div className="custom-controls">    
+                    <h3>Nome do modo</h3>
+            
+                    <input type="text" placeholder="Nome do Modo" value={nome} onChange={(e) => setNome(e.target.value)} />
+                        <h3>Funções Especializadas</h3>
+            
+                    <label>
+                        <input type="checkbox" checked={ativarIA} onChange={(e) => setAtivarIA(e.target.checked)} />
+                        Ativar IA
+                    </label>
+                    <label>
+                        <input type="checkbox" checked={gerarPDF} onChange={(e) => setGerarPDF(e.target.checked)} />
+                        Gerar PDF
+                    </label>
+                    <label>
+                        <input type="checkbox" checked={resumirComIA} onChange={(e) => setResumirComIA(e.target.checked)} />
+                        Resumir com IA
+                    </label>
+                    <label>
+                        <input type="checkbox" checked={organizarPasta} onChange={(e) => setOrganizarPasta(e.target.checked)} />
+                        Organizar em pastas
+                    </label>
+            
+                    <button onClick={salvarModo}>Criar modo</button>
+                </div>            
+                
+                <div className="custom-preview">
+                    <h2>Preview</h2>
 
-                <h3>Funções Especializadas</h3>
-                <label>
-                    <input type="checkbox" checked={ativarIA} onChange={(e) => setAtivarIA(e.target.checked)} />
-                    Ativar IA
-                </label>
-                <label>
-                    <input type="checkbox" checked={gerarPDF} onChange={(e) => setGerarPDF(e.target.checked)} />
-                    Gerar PDF
-                </label>
-                <label>
-                    <input type="checkbox" checked={resumirComIA} onChange={(e) => setResumirComIA(e.target.checked)} />
-                    Resumir com IA
-                </label>
-                <label>
-                    <input type="checkbox" checked={organizarPasta} onChange={(e) => setOrganizarPasta(e.target.checked)} />
-                    Organizar em pastas
-                </label>
-                <button onClick={salvarModo}>Criar modo</button>
+                    <h3>Nome do modo: { nome || "Seu modo"}</h3>
+
+                    <h2>Funções Especializadas:</h2>
+                    {ativarIA && <span>Ativar IA</span>}
+                    {gerarPDF && <span>Gerar PDF</span>}
+                    {resumirComIA && <span>Resumir com IA</span>}
+                    {organizarPasta && <span>Organizar em pastas</span>}
+                </div>
             </div>
         </section>
     );
