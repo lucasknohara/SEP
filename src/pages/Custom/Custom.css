@@ -1,5 +1,5 @@
 .custom-page {
-    background: var(--cor-branco);
+    background: var(--cor-preto);
     color: var(--cor-preto);
 }
 
@@ -10,12 +10,13 @@
     grid-template-columns: 1fr 400px;
     align-items: center;
     gap: 80px;
+    color: var(--cor-branco)
 }
 
 .custom-hero span {
     font-size: 14px;
     letter-spacing: 4px;
-    color: var(--cor-texto-secundario);
+    color: var(--cor-amarelo);
 }
 
 .custom-hero h1 {
@@ -36,7 +37,6 @@
     width: 100%;
     display: block;
     border-radius: 36px;
-    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 768px) {

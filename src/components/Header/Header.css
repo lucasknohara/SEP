@@ -7,8 +7,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.292);
-
+    background: rgb(255, 255, 255);
 }
 
 .header h1 {

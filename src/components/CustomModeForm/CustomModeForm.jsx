@@ -32,18 +32,20 @@ function CustomModeForm() {
 
     return (
         <section className="custom-mode-form">
-            <h2>Crie seu próprio modo.</h2>
+            <div className="custom-mode-form-div">
+                <h2>Crie seu próprio modo.</h2>
 
-            <input type="text" placeholder="Nome do Modo" value={nome} onChange={(e) => setNome(e.target.value)} />
-            <label>
-                <input type="checkbox" checked={ativarIA} onChange={(e) => setAtivarIA(e.target.checked)} />
-                Ativar IA
-            </label>
-            <label>
-                <input type="checkbox" checked={gerarPDF} onChange={(e) => setGerarPDF(e.target.checked)} />
-                Gerar PDF
-            </label>
-            <button onClick={salvarModo}>Salvar modo</button>
+                <input type="text" placeholder="Nome do Modo" value={nome} onChange={(e) => setNome(e.target.value)} />
+                <label>
+                    <input type="checkbox" checked={ativarIA} onChange={(e) => setAtivarIA(e.target.checked)} />
+                    Ativar IA
+                </label>
+                <label>
+                    <input type="checkbox" checked={gerarPDF} onChange={(e) => setGerarPDF(e.target.checked)} />
+                    Gerar PDF
+                </label>
+                <button onClick={salvarModo}>Criar modo</button>
+            </div>
         </section>
     );
 }

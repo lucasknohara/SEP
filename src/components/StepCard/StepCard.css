@@ -1,6 +1,5 @@
 .step-card {
     padding: 32px;
-    border: 1px solid var(--cor-preto);
     border-radius: 24px;
     background: var(--cor-branco);
 }

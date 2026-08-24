@@ -5,17 +5,19 @@
     justify-content: space-between;
     gap: 60px;
     padding: 80px 8%;
+    background-color: var(--cor-preto);
 }
 
 .hero-content {
     max-width: 620px;
+    color: var(--cor-branco)
 }
 
 .hero-content span {
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--cor-texto-secundario)
+    color: var(--cor-amarelo)
 }
 
 .hero-content h1 {
@@ -28,6 +30,7 @@
     font-size: 20px;
     line-height: 1.6;
     max-width: 520px;
+    color: var(--cor-texto-secundario);
 }
 
 .hero-visual img {

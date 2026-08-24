@@ -1,10 +1,12 @@
 .how-it-works {
     padding: 100px 8%;
+    background-color: var(--cor-preto);
 }
 
 .how-it-works h2 {
     font-size: 48px;
     margin-bottom: 50px;
+    color: var(--cor-branco)
 }
 
 .steps {
