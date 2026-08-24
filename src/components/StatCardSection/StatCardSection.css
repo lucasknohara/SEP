@@ -1,0 +1,16 @@
+.stats-section {
+    padding: 100px 8%;
+    background: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.stats-section h2 {
+    margin: 0 0 50px;
+    font-size: 48px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
