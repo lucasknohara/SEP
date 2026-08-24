@@ -9,7 +9,7 @@ function StudyLens() {
             <section className="studylens-hero">
                 <div>
                     <span>STUDYLENS</span>
-                    <h1>Transforme suas capturas em conhecimento.</h1>
+                    <h1>TRANSFORME SUAS CAPTURAS EM CONHECIMENTO.</h1>
                     <p>Uma experiência de câmera pensada para estudantes, capaz de transformar imagens em materiais de estudo.</p>
                 </div>
 

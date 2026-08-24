@@ -3,14 +3,11 @@
 }
 
 :root {
-    --cor-preto: #0B0D10;
-    --cor-preto-superficie: #11151B;
-    --cor-branco: #F5F7FA;
-    --cor-cinza: #E8EDF2;
-    --cor-amarelo: #FFD900;
-    --cor-azul: #8FA7FF;
-    --cor-texto-secundario: #68707D;
-    --cor-texto-claro: #B8C0CC;
+    --cor-preto: #111111;
+    --cor-branco: #ffffff;
+    --cor-cinza: #ececec;
+    --cor-amarelo: #ffd900;
+    --cor-texto-secundario: #666666;
 }
 
 body {

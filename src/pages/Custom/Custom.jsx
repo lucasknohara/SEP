@@ -8,7 +8,7 @@ function Custom() {
             <section className="custom-hero">
                 <div>
                     <span>MODO CUSTOMIZÁVEL</span>
-                    <h1>Crie a câmera do seu jeito.</h1>
+                    <h1>PERSONALIZE A CÂMERA DO SEU JEITO.</h1>
                     <p>Personalize sua experiência escolhendo recursos e ajustes que combinam com a forma como você usa a câmera.</p>
                 </div>
 

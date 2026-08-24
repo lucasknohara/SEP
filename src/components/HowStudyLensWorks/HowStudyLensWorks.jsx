@@ -4,7 +4,7 @@ import "./HowStudyLensWorks.css";
 function HowStudyLensWorks() {
     return (
         <section className="how-studylens-works">
-            <h2>DA CAPTURA AO CONHECIMENTO</h2>
+            <h2>Da captura ao conhecimento.</h2>
 
             <div className="process-steps">
                 <ProcessStep number="1" title="Capture" description="Fotografe quadro, livro, slide ou anotações." />

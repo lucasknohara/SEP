@@ -4,7 +4,7 @@ import "./HowItWorks.css";
 function HowItWorks() {
     return (
         <section className="how-it-works">
-            <h2>Como Funciona</h2>
+            <h2>Como Funciona?</h2>
 
             <div className="steps">
                 <StepCard number="1" title="Capture" description="Capture uma imagem." />
