@@ -13,7 +13,7 @@
     width: 100%;
     max-width: 400px;
     padding: 16px 18px;
-    border: 1px solid #444;
+    border: 1px solid var(--cor-branco);
     border-radius: 12px;
     background: #1c1c1c;
     color: var(--cor-branco);
@@ -43,4 +43,10 @@
     border: 3px solid var(--cor-preto);
     border-radius: 10px;
     padding: 50px;
+    background-color: #262626;
+    color: var(--cor-branco);
+}
+
+.custom-mode-form-div h3 {
+    font-size: 30px
 }
