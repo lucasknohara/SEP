@@ -1,4 +1,4 @@
-import modoEstudante from "../../assets/ModoEstudante.png";
+import Inicial from "../../assets/Inicial.png";
 import "./Hero.css";
 
 function Hero(props) {
@@ -11,7 +11,7 @@ function Hero(props) {
             </div>
 
             <div className="hero-visual">
-                <img src={modoEstudante} alt="Tela do Modo Estudante" />
+                <img src={Inicial} alt="Tela do Modo Estudante" />
             </div>
         </section>
     );
