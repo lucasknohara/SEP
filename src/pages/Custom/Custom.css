@@ -38,3 +38,48 @@
     border-radius: 36px;
     box-shadow: 0 25px 70px rgba(0, 0, 0, 0.18);
 }
+
+@media (max-width: 768px) {
+    .custom-hero {
+        grid-template-columns: 1fr;
+        padding: 70px 5%;
+        text-align: center;
+    }
+
+    .custom-hero h1 {
+        font-size: 44px;
+    }
+
+    .custom-hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custom-hero img {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .custom-hero {
+        padding: 80px 6%;
+        gap: 50px;
+    }
+
+    .custom-hero h1 {
+        font-size: 50px;
+    }
+
+    .custom-hero p {
+        font-size: 18px;
+    }
+
+    .custom-hero img {
+        max-width: 300px;
+    }
+
+    .custom-mode-form {
+        padding: 70px 6%;
+    }
+}

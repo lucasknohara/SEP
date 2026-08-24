@@ -38,3 +38,52 @@
     border-radius: 36px;
     box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
 }
+
+@media (max-width: 768px) {
+    .studylens-hero {
+        grid-template-columns: 1fr;
+        padding: 70px 5%;
+        text-align: center;
+    }
+
+    .studylens-hero h1 {
+        font-size: 44px;
+    }
+
+    .studylens-hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .studylens-hero img {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .studylens-hero {
+        padding: 80px 6%;
+        gap: 50px;
+    }
+
+    .studylens-hero h1 {
+        font-size: 50px;
+    }
+
+    .studylens-hero p {
+        font-size: 18px;
+    }
+
+    .studylens-hero img {
+        max-width: 300px;
+    }
+
+    .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ia-actions-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -12,3 +12,35 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .mode-section {
+        padding: 70px 5%;
+    }
+
+    .mode-section h2 {
+        font-size: 36px;
+    }
+
+    .mode-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .mode-section {
+        padding: 80px 6%;
+    }
+
+    .mode-section h2 {
+        font-size: 42px;
+    }
+
+    .mode-card {
+        padding: 35px;
+    }
+
+    .mode-card h3 {
+        font-size: 30px;
+    }
+}

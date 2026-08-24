@@ -14,3 +14,35 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .stats-section {
+        padding: 70px 5%;
+    }
+
+    .stats-section h2 {
+        font-size: 36px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .stats-section {
+        padding: 80px 6%;
+    }
+
+    .stats-section h2 {
+        font-size: 42px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stat-card strong {
+        font-size: 42px;
+    }
+}

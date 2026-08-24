@@ -14,3 +14,31 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .how-studylens-works {
+        padding: 70px 5%;
+    }
+
+    .how-studylens-works h2 {
+        font-size: 36px;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .how-studylens-works {
+        padding: 70px 5%;
+    }
+
+    .how-studylens-works h2 {
+        font-size: 36px;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+}

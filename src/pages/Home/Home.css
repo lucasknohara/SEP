@@ -13,3 +13,31 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .features-section {
+        padding: 70px 5%;
+    }
+
+    .features-section h2 {
+        font-size: 36px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .features-section {
+        padding: 80px 6%;
+    }
+
+    .features-section h2 {
+        font-size: 42px;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

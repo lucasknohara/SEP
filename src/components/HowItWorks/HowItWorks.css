@@ -12,3 +12,31 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .how-it-works {
+        padding: 70px 5%;
+    }
+
+    .how-it-works h2 {
+        font-size: 36px;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .how-it-works {
+        padding: 80px 6%;
+    }
+
+    .how-it-works h2 {
+        font-size: 42px;
+    }
+
+    .steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
