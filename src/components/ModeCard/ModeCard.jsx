@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ModeCard.css";
 
 function ModeCard(props) {
@@ -5,7 +6,10 @@ function ModeCard(props) {
         <article className={`mode-card ${props.variant}`}>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <button>{props.buttonText}</button>
+
+            <Link to={props.link}>
+                <button>{props.buttonText}</button>
+            </Link>
         </article>
     );
 }
