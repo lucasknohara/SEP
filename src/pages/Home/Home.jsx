@@ -3,11 +3,14 @@ import ModeSection from "../../components/ModeSection/ModeSection.jsx";
 import HowItWorks from "../../components/HowItWorks/HowItWorks.jsx";
 import FeatureCard from "../../components/FeatureCard/FeatureCard.jsx";
 import StatCardSection from "../../components/StatCardSection/StatCardSection.jsx";
+import Header from "../../components/Header/Header.jsx";
 import "./Home.css";
 
 function Home() {
     return (
         <main>
+            <Header />
+
             <Hero title="A CÂMERA QUE ENTENDE O QUE VOCÊ ESTÁ APRENDENDO." subtitle="Transforme suas capturas em conhecimento organizado com IA." />
         
             <ModeSection />

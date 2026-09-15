@@ -1,10 +1,13 @@
 import CustomImg from "../../assets/ModoCustomizavel.png";
 import CustomModeForm from "../../components/CustomModeForm/CustomModeForm.jsx";
+import Header from "../../components/Header/Header.jsx";
 import "./Custom.css";
 
 function Custom() {
     return (
         <main className="custom-page">
+            <Header />
+
             <section className="custom-hero">
                 <div>
                     <span>MODO CUSTOMIZÁVEL</span>

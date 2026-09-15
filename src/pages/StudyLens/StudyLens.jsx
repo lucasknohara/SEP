@@ -1,10 +1,14 @@
 import StudyLensImg from "../../assets/ModoEstudante.png";
 import HowStudyLensWorks from "../../components/HowStudyLensWorks/HowStudyLensWorks.jsx";
 import IAActions from "../../components/IAActions/IAActions.jsx";
+import Header from "../../components/Header/Header.jsx";
 import "./StudyLens.css";
 
 function StudyLens() {
     return (
+    <>
+        <Header />
+        
         <main className="studylens-page">
             <section className="studylens-hero">
                 <div>
@@ -12,7 +16,6 @@ function StudyLens() {
                     <h1>TRANSFORME SUAS CAPTURAS EM CONHECIMENTO.</h1>
                     <p>Uma experiência de câmera pensada para estudantes, capaz de transformar imagens em materiais de estudo.</p>
                 </div>
-
                 <div>
                     <img src={StudyLensImg} alt="Tela do StudyLens" />
                 </div>
@@ -22,6 +25,7 @@ function StudyLens() {
 
             <IAActions />
         </main>
+    </>
     );
 }
 
