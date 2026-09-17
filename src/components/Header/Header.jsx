@@ -6,9 +6,10 @@ function Header() {
         <header className="header">
             <h1>SEP</h1>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/studylens">StudyLens</Link>
                 <Link to="/modocustomizavel">Modo Customizável</Link>
+                <Link to="/">Inicio</Link>
             </nav>
         </header>
     );
