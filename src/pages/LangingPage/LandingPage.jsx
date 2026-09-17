@@ -3,6 +3,7 @@ import HeaderLanding from "../../components/LandingPage/Header/Header.jsx";
 import Solution from "../../components/LandingPage/Solution/Solution.jsx";
 import TargetAudience from "../../components/LandingPage/TargetAudience/TargetAudience.jsx";
 import Gallery from "../../components/LandingPage/Gallery/Gallery.jsx";
+import Team from "../../components/LandingPage/Team/Team.jsx";
 
 function LandingPage() {
     return (
@@ -12,6 +13,7 @@ function LandingPage() {
             <Solution />
             <TargetAudience />
             <Gallery />
+            <Team />
         </section>
     );
 }
