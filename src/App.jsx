@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
 
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/studylens" element={<StudyLens />} />
             <Route path="/modocustomizavel" element={<Custom />} />
-            <Route path="/landing" element={<LandingPage />} />
+            <Route path="/" element={<LandingPage />} />
         </Routes>
 
       <Footer />

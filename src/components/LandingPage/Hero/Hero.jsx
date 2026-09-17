@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+
+
 function HeroLanding() {
     return (
         <section className="grid place-items-center px-5 pt-[110px] pb-[90px] text-center text-white bg-[#111111] bg-[radial-gradient(circle_at_50%_0%,_#1f2937_0%,_#111111_65%)]">
@@ -15,12 +18,9 @@ function HeroLanding() {
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4">
-                    <a
-                        href="#solucao"
-                        className="inline-block rounded-[8px] bg-white px-[26px] py-[13px] text-[0.95rem] font-semibold text-[#111111] no-underline transition-transform duration-200 ease-in-out hover:-translate-y-0.5"
-                    >
+                    <Link to="/home" className="inline-block rounded-[8px] bg-white px-[26px] py-[13px] text-[0.95rem] font-semibold text-[#111111] no-underline transition-transform duration-200 ease-in-out hover:-translate-y-0.5">
                         Conhecer a solução
-                    </a>
+                    </Link>
                     
                     <a
                         href="#contato"
