@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function HeroLanding() {
     return (
-        <section className="grid place-items-center px-5 pt-[110px] pb-[90px] text-center text-white bg-[#111111] bg-[radial-gradient(circle_at_50%_0%,_#1f2937_0%,_#111111_65%)]">
+        <section id="topo" className="grid place-items-center px-5 pt-[110px] pb-[90px] text-center text-white bg-[#111111] bg-[radial-gradient(circle_at_50%_0%,_#1f2937_0%,_#111111_65%)]">
             <div className="max-w-[720px]">
                 <p className="mb-4 text-[0.8rem] uppercase tracking-[2px] text-[yellow]">Projeto Challenge · JOVI</p>
 
