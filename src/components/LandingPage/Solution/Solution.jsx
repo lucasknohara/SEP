@@ -6,7 +6,7 @@ function Solution() {
                 <p className="text-[1.1rem] text-[#666666]">Conheça a nova forma de usar a câmera do seu celular.</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-[25px]">
+            <div className="grid grid-cols-1 gap-[25px] md:grid-cols-2 lg:grid-cols-3">
                 <article className="rounded-[10px] border border-[#e2e8f0] bg-white p-[30px] shadow-[0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 ease-in-out hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
                     <h3 className="mb-3 text-[1.25rem] text-[#0f172a] font-semibold">O Problema</h3>
                     <p className="text-[0.98rem] text-[#475569]">
@@ -44,7 +44,7 @@ function Solution() {
                 </article>
             </div>
 
-            <div className="mt-[25px] grid grid-cols-4 gap-5">
+            <div className="mt-[25px] grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
                 <article className="rounded-[10px] border border-[#e2e8f0] bg-white p-[22px] shadow-[0_4px_12px_rgba(0,0,0,0.03)] transition-[transform,box-shadow] duration-200 ease-in-out hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
                     <h4 className="mb-[10px] text-[1.05rem] text-[#0f172a] font-semibold">
                         StudyLens

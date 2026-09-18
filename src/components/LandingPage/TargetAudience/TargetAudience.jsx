@@ -7,7 +7,7 @@ function TargetAudience() {
             <p className="text-[1.1rem] text-[#666666]">Para quem a SEP foi pensada e por que ela faz diferença.</p>
         </div>
 
-        <div className="grid grid-cols-3 gap-[25px]">
+        <div className="grid grid-cols-1 gap-[25px] md:grid-cols-2 lg:grid-cols-3">
             <article className="rounded-[10px] border border-[#e2e8f0] bg-[#f8fafc] p-[30px] shadow-[0_4px_12px_rgba(0,0,0,0.03)] transition-[transform,box-shadow] duration-200 ease-in-out hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)]">
                 <h3 className="mb-3 font-semibold text-[1.25rem] text-[#0f172a] font-semibold">
                     Quem são

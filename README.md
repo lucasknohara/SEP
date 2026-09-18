@@ -21,6 +21,7 @@ O projeto foi desenvolvido a partir do protótipo criado nas sprints anteriores 
 * CSS3
 * React Router DOM
 * LocalStorage
+* Tailwind CSS
 
 ## Funcionalidades
 
